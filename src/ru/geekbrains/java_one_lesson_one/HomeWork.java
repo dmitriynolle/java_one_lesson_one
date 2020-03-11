@@ -18,9 +18,9 @@ public class HomeWork {
     private static final Random RANDOM = new Random();
 
     private static void initField() {
-        fieldSizeY = 3;
-        fieldSizeX = 3;
-        winSize = 3;
+        fieldSizeY = 5;
+        fieldSizeX = 5;
+        winSize = 4;
         field = new char[fieldSizeY][fieldSizeX];
         for (int y = 0; y < fieldSizeY; y++) {
             for (int x = 0; x < fieldSizeX; x++) {
